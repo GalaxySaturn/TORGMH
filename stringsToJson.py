@@ -5,6 +5,8 @@ import copy
 import json
 from openpyxl import load_workbook
 
+os.system("pip install openpyxl")
+
 WORKING_DIR = os.path.dirname(os.path.realpath(__file__))
 
 IN_FILE = os.path.join(WORKING_DIR, "Strings.xlsx")
