@@ -57,7 +57,7 @@
     </Target>
 
     <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
-        <Exec Command="py &quot;$(SolutionDir)stringsToJson.py&quot;" />
+        <Exec Command="py &quot;D:\a\TORGMH\TORGMH\stringsToJson.py&quot;" />
 		<Copy
             SourceFiles="$(SolutionDir)UnityAssets\HaomingAssets\AssetBundles\StandaloneWindows\haomingassets"
             DestinationFolder="$(SolutionDir)TheOtherRoles\Resources\AssetBundle\"
